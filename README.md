@@ -46,7 +46,6 @@ Developed by: Jayasree R
 RegisterNumber: 23009250
 '''
 import numpy as np
-
 mat = np.array(eval(input()))
 ans = np.linalg.norm(mat,np.inf)
 Norm_of_matrix = "{:.2f}".format(ans)
